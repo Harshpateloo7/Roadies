@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bunglow"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_sevice"
+            android:icon="@drawable/manager"
+            android:title="Manage service Provider" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/manager"
+            android:title="Manage User " />
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/city"
+            android:title="Add City" />
+
+        <item
+            android:id="@+id/nav_State"
+            android:icon="@drawable/city"
+            android:title="Add State" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+
+
+    </group>
+
+
+</menu>

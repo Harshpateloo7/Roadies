@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bunglow"
+            android:title="Homes" />
+
+        <item
+            android:id="@+id/nav_bservice"
+            android:icon="@drawable/datapen"
+            android:title="Pending Request" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/viewfile"
+            android:title="View Request" />
+        <item
+            android:id="@+id/nav_Service_Request"
+            android:icon="@drawable/checkmak"
+            android:title="My Accepted Request" />
+
+        <item
+            android:id="@+id/upservice"
+            android:icon="@drawable/account"
+            android:title="My account"></item>
+
+    </group>
+
+</menu>

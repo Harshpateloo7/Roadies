@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.rodienew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ureg" />
+        <activity
+            android:name=".activity.MainAdmin"
+            android:label="@string/title_activity_main_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainUser"
+            android:label="@string/title_activity_main_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.Mainserviceprovider"
+            android:label="@string/title_activity_mainserviceprovider"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.Forgotpass"
+            android:label="@string/title_activity_mainserviceprovider"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activity.Forgotpassserv"
+            android:label="@string/title_activity_mainserviceprovider"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+    </application>
+
+</manifest>

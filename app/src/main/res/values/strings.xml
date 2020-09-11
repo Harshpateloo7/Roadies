@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Roadie</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_admin">MainAdmin</string>
+    <string name="title_activity_main_user">MainUser</string>
+    <string name="title_activity_mainserviceprovider">Mainserviceprovider</string>
+    <string name="bungla">bungla.png</string>
+
+    <string name="home">Home</string>
+</resources>
